@@ -8,7 +8,9 @@ img{
 
 #bp{
    color:blue;
-}
+   border: 35px solid black;
+   opacity:0.50;
+ }
 
 
 
