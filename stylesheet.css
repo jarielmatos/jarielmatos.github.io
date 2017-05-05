@@ -21,9 +21,11 @@ p{
 
 
 body{
-  background: #ffffff; /* Old browsers */
-  background: -moz-linear-gradient(left, #ffffff 0%, #3761d6 100%); /* FF3.6-15 */
-  background: -webkit-linear-gradient(left, #ffffff 0%,#3761d6 100%); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to right, #ffffff 0%,#3761d6 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#3761d6',GradientType=1 );
+  background: rgba(255,255,255,1);
+  background: -moz-radial-gradient(center, ellipse cover, rgba(255,255,255,1) 0%, rgba(107,107,107,1) 100%);
+  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(255,255,255,1)), color-stop(100%, rgba(107,107,107,1)));
+  background: -webkit-radial-gradient(center, ellipse cover, rgba(255,255,255,1) 0%, rgba(107,107,107,1) 100%);
+  background: -o-radial-gradient(center, ellipse cover, rgba(255,255,255,1) 0%, rgba(107,107,107,1) 100%);
+  background: -ms-radial-gradient(center, ellipse cover, rgba(255,255,255,1) 0%, rgba(107,107,107,1) 100%);
+  background: radial-gradient(ellipse at center, rgba(255,255,255,1) 0%, rgba(107,107,107,1) 100%);
 }  
