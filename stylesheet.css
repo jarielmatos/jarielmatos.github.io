@@ -24,6 +24,33 @@ p{
   background: -ms-linear-gradient(left, rgba(209,33,2,1) 0%, rgba(209,20,2,1) 100%);
   background: linear-gradient(to right, rgba(209,33,2,1) 0%, rgba(209,20,2,1) 100%);
 }
+nav{ 
+  position:fixed;
+  width:150px;
+  background:grey;
+  top:0;
+  left:0;
+  height:100%;
+}
+article{ 
+  position:relative;
+  width: 70%;
+  left: 160px;
+}
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
 
 
 
