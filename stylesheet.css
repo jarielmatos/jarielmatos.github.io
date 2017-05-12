@@ -27,14 +27,14 @@ nav{
      width:50%;
      display: inline-block;
      background color:blue;
-     right:0;
-     position:absolute;
+     left:0;
+    
 }
 #cain{
 width:50%;
      display: inline-block;
      background color:red;
-     right:0;
+     left:0;
 }
 article{ 
   position:relative;
