@@ -49,13 +49,6 @@ left:160px;
 }
 
 body{
-  background: rgba(84,84,84,1);
-  background: -moz-linear-gradient(left, rgba(84,84,84,1) 0%, rgba(77,77,77,1) 43%, rgba(82,82,82,1) 94%, rgba(82,82,82,1) 100%);
-  background: -webkit-gradient(left top, right top, color-stop(0%, rgba(84,84,84,1)), color-stop(43%, rgba(77,77,77,1)), color-stop(94%, rgba(82,82,82,1)), color-stop(100%, rgba(82,82,82,1)));
-  background: -webkit-linear-gradient(left, rgba(84,84,84,1) 0%, rgba(77,77,77,1) 43%, rgba(82,82,82,1) 94%, rgba(82,82,82,1) 100%);
-  background: -o-linear-gradient(left, rgba(84,84,84,1) 0%, rgba(77,77,77,1) 43%, rgba(82,82,82,1) 94%, rgba(82,82,82,1) 100%);
-  background: -ms-linear-gradient(left, rgba(84,84,84,1) 0%, rgba(77,77,77,1) 43%, rgba(82,82,82,1) 94%, rgba(82,82,82,1) 100%);
-  background: linear-gradient(to right, rgba(84,84,84,1) 0%, rgba(77,77,77,1) 43%, rgba(82,82,82,1) 94%, rgba(82,82,82,1) 100%);
-
+  background color:#6e6e6e;
   font-family: "Times New Roman";
 }  
