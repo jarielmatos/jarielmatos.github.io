@@ -22,6 +22,20 @@ nav{
   left:0;
   height:100%;
 }
+
+#main{
+     width:50%;
+     display: inline-block;
+     background color:blue;
+     right:0;
+     position:absolute;
+}
+cain{
+width:50%;
+     display: inline-block;
+     background color:red;
+     right:0;
+}
 article{ 
   position:relative;
   width: 70%;
