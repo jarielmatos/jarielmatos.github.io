@@ -1,8 +1,13 @@
 $(document).ready(function(){ 
+   $("h1").click(function(){
+      $(this).css("border","1px solid blue"); 
+   });
+   $("h3").click(function(){
+      $(this).css("border","1px solid blue"); 
+   });
    $("p").click(function(){
-    $("h1").css("border","1px solid blue");
-     $("h3").css("border","1px solid blue"); 
-     });
+      $("#box").css("background-color", "blue");
+   });
 });
 
 
