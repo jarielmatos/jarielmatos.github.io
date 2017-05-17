@@ -6,7 +6,7 @@ $(document).ready(function(){
       $(this).css("border","1px solid blue"); 
    });
    $("p").click(function(){
-      $("#box").css("background-color", "blue");
+      $(".bp").css("background-color", "blue");
    });
 });
 
