@@ -28,14 +28,14 @@ nav{
 #main{
      width:50%;
      display: inline-block;
-     background color:blue;
+     background-color:blue;
      left:0;
     
 }
 #cain{
 width:50%;
      display: inline-block;
-     background color:red;
+     background-color:red;
      left:0;
 }
 article{ 
@@ -50,6 +50,6 @@ left:160px;
 }
 
 body{
-  background color:6e6e6e;
+  background-color: #6e6e6e;
   font-family: "Times New Roman";
 }  
