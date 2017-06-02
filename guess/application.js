@@ -4,5 +4,6 @@ $(document).ready(function(){
 		console.log("testing");
 		var name= $("input[name=ok]").val();
 		$("#response").html(name);
+		console.log("testing");
 	});	
 });
