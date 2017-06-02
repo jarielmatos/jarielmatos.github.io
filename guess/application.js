@@ -1,9 +1,14 @@
 $(document).ready(function(){
 	var random_num = Math.floor((Math.random()*100) + 1);
-	$('#submit').click(function(){
-		console.log("trying to print the value in the input...");
-		var name = $("input[name=ok]").val();
-		console.log(name);
-		$('#response').html(name);
+	$('button').click(function(){
+		var guess = $("input[name=ok]").val();
+		if(guess == random_num){
+			$('div').html("You won!");
+		} else if(guess < random_number ){
+			 $('div').html("Too low - guess higher!");
+		}
+		else {
+			$('div').html("Too high - guess lower!");
+		}
 	});	
 });
